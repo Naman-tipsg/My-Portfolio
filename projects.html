@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="bg-animation">
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <span class="logo-icon">⚡</span>
+            <span class="logo-text">Portfolio</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="about.html"><i class="fas fa-user"></i> About</a></li>
+            <li><a href="projects.html" class="active"><i class="fas fa-code"></i> Projects</a></li>
+            <li><a href="certificates.html"><i class="fas fa-certificate"></i> Certificates</a></li>
+            <li><a href="skills.html"><i class="fas fa-cogs"></i> Skills</a></li>
+            <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+        </ul>
+        <div class="theme-toggle">
+            <button id="theme-toggle-btn" class="theme-btn">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2 class="section-title">My Projects</h2>
+        
+        <!-- Machine Learning Projects -->
+        <h3 class="project-category-title">Machine Learning Projects</h3>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=400&h=250&fit=crop" alt="ML Project 1">
+                </div>
+                <h3>Customer Churn Prediction</h3>
+                <p>Predicting customer churn using classification models like Random Forest and XGBoost. Achieved 85% accuracy with careful feature engineering and hyperparameter tuning.</p>
+                <div class="project-links">
+                    <a href="#" class="project-link github"><i class="fab fa-github"></i> GitHub</a> 
+                    <a href="#" class="project-link live"><i class="fas fa-external-link-alt"></i> Live</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=250&fit=crop" alt="ML Project 2">
+                </div>
+                <h3>House Price Prediction</h3>
+                <p>Regression model to predict house prices using features like location, size, and amenities. Built with multiple regression algorithms for comparison.</p>
+                <div class="project-links">
+                    <a href="https://github.com/Naman-tipsg/house-price-prediction01" class="project-link github" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub</a> 
+                    <a href="#" class="project-link live"><i class="fas fa-external-link-alt"></i> Live</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=250&fit=crop" alt="ML Project 3">
+                </div>
+                <h3>Spam Email Classifier</h3>
+                <p>Natural Language Processing model to classify emails as spam or not spam. Uses text preprocessing and ML algorithms for high accuracy classification.</p>
+                <div class="project-links">
+                    <a href="https://github.com/Naman-tipsg/email-spam-detector" class="project-link github" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="#" class="project-link live"><i class="fas fa-external-link-alt"></i> Live</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Deep Learning Projects -->
+        <h3 class="project-category-title">Deep Learning Projects</h3>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?w=400&h=250&fit=crop" alt="DL Project 1">
+                </div>
+                <h3>Handwritten Digit Recognition</h3>
+                <p>CNN model to recognize handwritten digits using MNIST dataset. Achieved 98% accuracy with convolutional neural networks.</p>
+                <div class="project-links">
+                    <a href="#" class="project-link github"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="#" class="project-link live"><i class="fas fa-external-link-alt"></i> Live</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1555255707-c2daf9972a9d?w=400&h=250&fit=crop" alt="DL Project 2">
+                </div>
+                <h3>Image Classification</h3>
+                <p>Transfer learning using ResNet50 for image classification on CIFAR-10 dataset. Pre-trained model fine-tuned for better performance.</p>
+                <div class="project-links">
+                    <a href="#" class="project-link github"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="#" class="project-link live"><i class="fas fa-external-link-alt"></i> Live</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=400&h=250&fit=crop" alt="DL Project 3">
+                </div>
+                <h3>Sentiment Analysis</h3>
+                <p>LSTM-based model for sentiment analysis on movie reviews. Achieved high accuracy with sequential deep learning approach.</p>
+                <div class="project-links">
+                    <a href="#" class="project-link github"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="#" class="project-link live"><i class="fas fa-external-link-alt"></i> Live</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Data Analysis Projects -->
+        <h3 class="project-category-title">Data Analysis Projects</h3>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=250&fit=crop" alt="DA Project 1">
+                </div>
+                <h3>Sales Data Analysis Dashboard</h3>
+                <p>Interactive dashboard analyzing sales data with Python, Pandas, and Matplotlib. Features include trend analysis and customer segmentation.</p>
+                <div class="project-links">
+                    <a href="#" class="project-link github"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="#" class="project-link live"><i class="fas fa-external-link-alt"></i> Live</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=400&h=250&fit=crop" alt="DA Project 2">
+                </div>
+                <h3>COVID-19 Data Analysis</h3>
+                <p>Comprehensive analysis of COVID-19 pandemic data using Python. Includes visualization of trends and statistical analysis.</p>
+                <div class="project-links">
+                    <a href="#" class="project-link github"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="#" class="project-link live"><i class="fas fa-external-link-alt"></i> Live</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1520506684318-c5a3edc2d84e?w=400&h=250&fit=crop" alt="DA Project 3">
+                </div>
+                <h3>Stock Market Analysis</h3>
+                <p>Time series analysis of stock market data. Includes price prediction and trend analysis using various statistical methods.</p> 
+                <div class="project-links">
+                    <a href="#" class="project-link github"><i class="fab fa-github"></i> GitHub</a>   
+                    <a href="#" class="project-link live"><i class="fas fa-external-link-alt"></i> Live</a>
+                </div>
+            </div> 
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Naman Sharma. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

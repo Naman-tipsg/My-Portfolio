@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="bg-animation">
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <span class="logo-icon">⚡</span>
+            <span class="logo-text">Portfolio</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+            <li><a href="#projects"><i class="fas fa-code"></i> Projects</a></li>
+            <li><a href="#certificates"><i class="fas fa-certificate"></i> Certificates</a></li>
+            <li><a href="#skills"><i class="fas fa-cogs"></i> Skills</a></li>
+            <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+        </ul>
+        <div class="theme-toggle">
+            <button id="theme-toggle-btn" class="theme-btn">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="greeting">
+                <span class="wave">👋</span> Hello, I'm
+            </div>
+            <h1 class="name-title"><span class="highlight">Naman Sharma</span></h1>
+            <p class="tagline">
+                <span class="typed-text"></span>
+                <span class="cursor">|</span>
+            </p>
+            <p class="description">I turn raw data into meaningful insights using clean analysis and creative visualization. Let’s build something data-driven and impactful together.</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">
+                    <span>View My Work</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                    <span>Contact Me</span>
+                    <i class="fas fa-paper-plane"></i>
+                </a>
+            </div>
+            <div class="hero-stats">
+               
+                <div class="stat-item">
+                    <span class="stat-number">10+</span>
+                    <span class="stat-label">Projects</span>
+                </div>
+              
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="profile-wrapper">
+                <div class="profile-circle">
+                    <div class="profile-inner">
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+                <div class="profile-ring"></div>
+                <div class="floating-icons">
+                    <span class="float-icon"><i class="fab fa-python"></i></span>
+                    <span class="float-icon"><i class="fas fa-database"></i></span>
+                    <span class="float-icon"><i class="fas fa-chart-line"></i></span>
+                    <span class="float-icon"><i class="fas fa-brain"></i></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <!-- Two Column Layout -->
+            <div class="about-grid">
+                <!-- Left Column - About Text -->
+                <div class="about-text-column">
+                    <div class="about-text">
+                        <p>Hi! I'm a passionate <span class="highlight">Data Science Fresher</span> with a strong foundation in Python, SQL, and data analysis tools. I'm eager to apply my knowledge to real-world problems and contribute to data-driven decision making.</p>
+                        <p>As a recent graduate, I'm enthusiastic about learning new technologies and techniques in the field of Data Science. I have hands-on experience with NumPy, Pandas, and data visualization tools through academic projects.</p>
+                        <p>I'm actively seeking opportunities to grow my skills and contribute to meaningful projects where I can add value while developing my career in Data Science.</p>
+                    </div>
+                    
+                    <div class="about-stats">
+                        <div class="stat-row">
+                            <div class="stat">
+                                <h3>5+</h3>
+                                <p>Academic Projects</p>
+                            </div>
+                            <div class="stat">
+                                <h3>10+</h3>
+                                <p>Tools & Technologies</p>
+                            </div>
+                        </div>
+                        <div class="stat-row">
+                            <div class="stat">
+                                <h3>100+</h3>
+                                <p>Hours of Practice</p>
+                            </div>
+                            <div class="stat">
+                                <h3>3+</h3>
+                                <p>Certifications</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Right Column - Personal Info Card -->   
+                <div class="about-card-column">
+                    <div class="personal-info-card">
+                        <div class="card-header">
+                            <div class="profile-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <h3>Naman Sharma</h3>
+                            <p class="role">Data Science Fresher</p>
+                        </div>
+                        <div class="card-body">
+                            <div class="info-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>officialnaman4949@gmail.com</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+91 8829052087</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Alwar, India</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-graduation-cap"></i>
+                                <span>BCA in Data Science</span>
+                            </div>
+                        </div>
+                        <div class="card-buttons">
+                            <button class="btn-resume" onclick="showResume()">
+                                <i class="fas fa-eye"></i> Show Resume
+                            </button>
+                            <a href="Naman sharma resume New.pdf" download class="btn-download">
+                                <i class="fas fa-download"></i> Download Resume
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience / Job Simulations Section -->
+    <section id="experience" class="experience-simulations">
+        <h2 class="section-title">Experience & Job Simulations</h2>
+        <div class="experience-grid">
+            <div class="experience-card">
+                <div class="experience-icon">
+                    <i class="fas fa-plane-departure"></i>
+                </div>
+                <h3>British Airways - Data Science Job Simulation</h3>
+                <ul>
+                    <li>Modeled lounge eligibility at Heathrow Terminal 3</li>
+                    <li>Predicted customer buying behavior using ML concepts</li>
+                    <li>Completed practical Data Science simulation tasks</li>
+                </ul>
+                <a href="https://www.theforage.com/completion-certificates/tMjbs76F526fF5v3G/NjynCWzGSaWXQCxSX_tMjbs76F526fF5v3G_69c547a1669756a324a47be7_1779866834889_completion_certificate.pdf" class="experience-link" target="_blank" rel="noopener noreferrer">View Certificate</a>
+            </div>
+            <div class="experience-card">
+                <div class="experience-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <h3>Tata - GenAI Powered Data Analytics Job Simulation</h3>
+                <ul>
+                    <li>Performed exploratory data analysis and risk profiling</li>
+                    <li>Worked on AI-driven delinquency prediction</li>
+                    <li>Created business reports and storytelling dashboards</li>
+                </ul>
+                <a href="https://www.theforage.com/completion-certificates/ifobHAoMjQs9s6bKS/gMTdCXwDdLYoXZ3wG_ifobHAoMjQs9s6bKS_69c547a1669756a324a47be7_1779863249218_completion_certificate.pdf" class="experience-link" target="_blank" rel="noopener noreferrer">View Certificate</a>
+            </div>
+            <div class="experience-card">
+                <div class="experience-icon">
+                    <i class="fas fa-hourglass-half"></i>
+                </div>
+                <h3>Upcoming Job Simulation</h3>
+                <ul>
+                    <li>New certification will be added soon</li>
+                </ul>
+                <a href="https://example.com" class="experience-link muted" target="_blank" rel="noopener noreferrer">Coming Soon</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2 class="section-title">My Projects</h2>
+        
+        <!-- Machine Learning Projects -->
+        <h3 class="project-category-title">Machine Learning Projects</h3>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=400&h=250&fit=crop" alt="ML Project 1">
+                </div>
+                <h3>Customer Churn Prediction</h3>
+                <p>Predicting customer churn using classification models like Random Forest and XGBoost.</p>
+                <div class="project-hover-description">
+                    <h4>Project Description</h4>
+                    <p>Built a machine learning workflow to identify customers who may leave a service. The project includes data cleaning, feature analysis, model training, accuracy comparison, and churn insights that can help businesses improve customer retention.</p>
+                </div>
+                <div class="project-links">
+                    <a href="#" class="project-link github"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="#" class="project-link live"><i class="fas fa-external-link-alt"></i> Live</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=250&fit=crop" alt="ML Project 2">
+                </div>
+                <h3>House Price Prediction</h3>
+                <p>Regression model to predict house prices using features like location, size, and amenities.</p>
+                <div class="project-hover-description">
+                    <h4>Project Description</h4>
+                    <p>Designed a regression-based prediction model that estimates house prices from property features. The project focuses on exploratory data analysis, handling missing values, feature selection, and evaluating model performance with error metrics.</p>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/Naman-tipsg/house-price-prediction01" class="project-link github" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="#" class="project-link live"><i class="fas fa-external-link-alt"></i> Live</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=250&fit=crop" alt="ML Project 3">
+                </div>
+                <h3>Spam Email Classifier</h3>
+                <p>Natural Language Processing model to classify emails as spam or not spam.</p>
+                <div class="project-hover-description">
+                    <h4>Project Description</h4>
+                    <p>Created an NLP classifier that processes email text and detects spam messages. It uses text preprocessing, vectorization, and classification algorithms to separate genuine emails from spam with practical evaluation metrics.</p>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/Naman-tipsg/email-spam-detector" class="project-link github" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="#" class="project-link live"><i class="fas fa-external-link-alt"></i> Live</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Deep Learning Projects -->
+        <h3 class="project-category-title">Deep Learning Projects</h3>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?w=400&h=250&fit=crop" alt="DL Project 1">
+                </div>
+                <h3>Handwritten Digit Recognition</h3>
+                <p>CNN model to recognize handwritten digits using MNIST dataset with 98% accuracy.</p>
+                <div class="project-hover-description">
+                    <h4>Project Description</h4>
+                    <p>Developed a convolutional neural network for recognizing handwritten digits from image data. The project covers image normalization, CNN architecture, training, validation, and accuracy tracking on the MNIST dataset.</p>
+                </div>
+                <div class="project-links">
+                    <a href="#" class="project-link github"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="#" class="project-link live"><i class="fas fa-external-link-alt"></i> Live</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1555255707-c2daf9972a9d?w=400&h=250&fit=crop" alt="DL Project 2">
+                </div>
+                <h3>Image Classification</h3>
+                <p>Transfer learning using ResNet50 for image classification on CIFAR-10 dataset.
+
+                </p>
+                <div class="project-hover-description">
+                    <h4>Project Description</h4>
+                    <p>Implemented image classification with transfer learning using a pre-trained ResNet50 model. The project improves classification performance by reusing learned visual features and fine-tuning the model for CIFAR-10 classes.</p>
+                </div>
+                <div class="project-links">
+                    <a href="#" class="project-link github"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="#" class="project-link live"><i class="fas fa-external-link-alt"></i> Live</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=400&h=250&fit=crop" alt="DL Project 3">
+                </div>
+                <h3>Sentiment Analysis</h3>
+                <p>LSTM-based model for sentiment analysis on movie reviews with high accuracy.</p>
+                <div class="project-hover-description">
+                    <h4>Project Description</h4>
+                    <p>Built a deep learning model that analyzes review text and predicts whether the sentiment is positive or negative. The workflow includes tokenization, sequence padding, LSTM training, and performance validation.</p>
+                </div>
+                <div class="project-links">
+                    <a href="#" class="project-link github"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="#" class="project-link live"><i class="fas fa-external-link-alt"></i> Live</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-container">
+            <div class="skill-category">
+                <div class="skill-header">
+                    <i class="fas fa-code"></i>
+                    <h3>Programming</h3>
+                </div>
+                <div class="skill-items">
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Python</span>
+                            <span class="skill-percent">90%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress" data-width="90%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>JavaScript</span>
+                            <span class="skill-percent">80%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress" data-width="80%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>SQL</span>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress" data-width="85%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>C++</span>
+                            <span class="skill-percent">75%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress" data-width="75%"></div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-category">
+                <div class="skill-header">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Data Science</h3>
+                </div>
+                <div class="skill-items">
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>NumPy</span>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress" data-width="85%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Pandas</span>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress" data-width="85%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>EDA</span>
+                            <span class="skill-percent">80%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress" data-width="80%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Machine Learning</span>
+                            <span class="skill-percent">75%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress" data-width="75%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Deep Learning</span>
+                            <span class="skill-percent">50%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress" data-width="50%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Statistics</span>
+                            <span class="skill-percent">75%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress" data-width="75%"></div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-category">
+                <div class="skill-header">
+                    <i class="fas fa-tools"></i>
+                    <h3>Tools & Visualization</h3>
+                </div>
+                <div class="skill-items">
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Excel</span>
+                            <span class="skill-percent">90%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress" data-width="90%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>PowerBI</span>
+                            <span class="skill-percent">70%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress" data-width="70%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Matplotlib/Seaborn</span>
+                            <span class="skill-percent">80%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress" data-width="80%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>FastAPI</span>
+                            <span class="skill-percent">70%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress" data-width="70%"></div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-category">
+                <div class="skill-header">
+                    <i class="fas fa-globe"></i>
+                    <h3>Web & Version Control</h3>
+                </div>
+                <div class="skill-items">
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>HTML5</span>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress" data-width="85%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>CSS3</span>
+                            <span class="skill-percent">80%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress" data-width="80%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Bootstrap</span>
+                            <span class="skill-percent">70%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress" data-width="70%"></div></div>
+                    </div>
+                    <div class="skill-item">   
+                        <div class="skill-info">
+                            <span>Git/GitHub</span>
+                            <span class="skill-percent">80%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress" data-width="80%"></div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-category">
+                <div class="skill-header">
+                    <i class="fas fa-robot"></i>
+                    <h3>Emerging Technologies</h3> 
+                </div>
+                <div class="skill-items">
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>TensorFlow</span>
+                            <span class="skill-percent">70%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress" data-width="70%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Scikit-learn</span>
+                            <span class="skill-percent">75%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress" data-width="75%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Jupyter Notebook</span>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress" data-width="85%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Google Colab</span>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress" data-width="85%"></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="certificates">
+        <h2 class="section-title">My Certificates</h2>
+        <div class="certificates-grid">
+            <div class="certificate-item" onclick="window.open('https://www.kaggle.com/learn/certification/namansharmaalwar/python', '_blank')">
+                <img src="Naman Sharma - Python.png" alt="Certificate 1">
+                <div class="certificate-overlay">
+                    <i class="fas fa-expand"></i>
+                    <span>View Certificate</span>
+                </div>
+            </div>
+            <div class="certificate-item" onclick="openFullscreen('8975401_93364691757836657468_page-0001.jpg')">
+                <img src="8975401_93364691757836657468_page-0001.jpg" alt="Certificate 2">
+                <div class="certificate-overlay">
+                    <i class="fas fa-expand"></i>
+                    <span>View Certificate</span>
+                </div>
+            </div>
+            <div class="certificate-item" onclick="openFullscreen('6137346071NS_page-0001.jpg')">
+                <img src="6137346071NS_page-0001.jpg" alt="Certificate 3">
+                <div class="certificate-overlay">
+                    <i class="fas fa-expand"></i>
+                    <span>View Certificate</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fullscreen Certificate Viewer -->
+    <div class="fullscreen-viewer" id="fullscreenViewer">
+        <span class="fullscreen-close" onclick="closeFullscreen()">&times;</span>
+        <img id="fullscreenImage" src="" alt="Certificate">
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h4>Email</h4>
+                        <p>officialnaman4949@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h4>Phone</h4>
+                        <p>+91 8829052087</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h4>Location</h4>
+                        <p>Alwar, India</p>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/Naman-tipsg"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/naman-sharma-651203351/"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <form class="contact-form" action="https://formsubmit.co/officialnaman4949@gmail.com" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <input type="hidden" name="_captcha" value="false">
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Naman Sharma. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body> 
+</html>
