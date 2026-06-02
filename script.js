@@ -190,7 +190,7 @@ document.querySelector('footer p').innerHTML = `&copy; ${new Date().getFullYear(
 // Resume Modal Functions
 function showResume() {
     // Open the PDF in a new window/tab
-    window.open('Naman_Sharma_Resume.pdf', '_blank');
+    window.open('Naman_Sharma_Resume .pdf   ', '_blank');
 }
 
 // Certificate Fullscreen Functions
