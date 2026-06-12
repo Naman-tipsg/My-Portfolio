@@ -143,7 +143,7 @@ if (contactForm) {
         // Submit to FormSubmit
         fetch('https://formsubmit.co/officialnaman4949@gmail.com', {
             method: 'POST',
-            body: formData
+            body: formData 
         })
         .then(response => {
             if (response.ok) {

@@ -318,6 +318,41 @@ img {
         gap: 0.75rem !important;
     }
 
+    /* Mobile-friendly certificate carousel */
+    .certificates-marquee {
+        overflow-x: auto !important;
+        overflow-y: hidden !important;
+        scroll-snap-type: x mandatory !important;
+        -webkit-overflow-scrolling: touch !important;
+        padding-bottom: 1rem !important;
+    }
+
+    .certificates-track {
+        animation: none !important;
+        display: flex !important;
+        gap: 1rem !important;
+        min-width: 100% !important;
+        padding-inline-start: 0.5rem !important;
+    }
+
+    .certificate-card {
+        flex: 0 0 min(92vw, 420px) !important;
+        min-width: min(92vw, 420px) !important;
+        scroll-snap-align: center !important;
+        scroll-snap-stop: always !important;
+        margin-inline: 0.5rem !important;
+    }
+
+    .certificate-card img {
+        width: 100% !important;
+        height: auto !important;
+        object-fit: contain !important;
+    }
+
+    .certificate-overlay {
+        background: rgba(15, 23, 42, 0.65) !important;
+    }
+
     .project-link.github,
     .project-link.live {
         width: 100% !important;
